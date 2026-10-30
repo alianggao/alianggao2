@@ -11,6 +11,18 @@
 
 > 后续按实际内容补充。
 
+## 待补依赖
+
+`skills/book-mockup-poster/SKILL.md` 引用了以下三个文件，**当前仓库中尚未包含**，补齐前该 Skill 无法实际运行：
+
+| 缺失文件 | 用途 | 状态 |
+| --- | --- | --- |
+| `skills/book-mockup-poster/scripts/make_poster.py` | 渲染脚本：填充模板 → Chrome headless 截图 → 输出 1520/760 两档并按 `--max-size` 控制体积 | 待补 |
+| `skills/book-mockup-poster/assets/poster_template.html` | 已验收版式模板，含占位符说明 | 待补 |
+| `skills/book-mockup-poster/assets/logo.png` | 出版社 logo（352×76，阈值 210 裁切、四周留 8px 纯白） | 待补 |
+
+> 注意：`SKILL.md` 声明版式已逐轮验收、须以脚本出图以保证与历史图片一致。补齐时应使用原始文件，不要重写实现，否则外观可能偏离验收版本。
+
 ## 使用
 
 ```bash
