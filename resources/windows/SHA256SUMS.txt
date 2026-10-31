@@ -1,0 +1,1 @@
+e3883a6824f91ea9755bb5579e442aadc81c3fe2badd6469ebdb67997fa46160 *resources/windows/composa-1.4.0-win-x64-setup.exe
